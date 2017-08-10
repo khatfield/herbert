@@ -44,6 +44,13 @@ return [
     ],
 
     /**
+     * The actions to auto-load.
+     */
+    'actions' => [
+        __DIR__ . '/app/actions.php'
+    ],
+
+    /**
      * The widgets to auto-load.
      */
     'widgets' => [
