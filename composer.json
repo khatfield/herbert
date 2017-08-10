@@ -2,8 +2,12 @@
   "name": "khatfield/herbert-plugin",
   "description": "Herbert plugin",
   "license": "MIT",
+  "repositories": [{
+      "type": "composer",
+      "url": "https://repos.hatfield.me"
+  }],
   "require": {
-    "getherbert/framework": "~0.9"
+    "khatfield/herbert": "~0.9"
   },
   "config": {
     "preferred-install": "dist"
